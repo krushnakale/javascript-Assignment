@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>email form</title>
+        <script src="email-form.js"></script>
+    </head>
+    <body>
+        <h1 id="heading"></h1>
+        <script>
+            document.getElementById('heading').innerHTML="log in form";
+        </script>
+        <div>
+        <label autocomplete="name" for="to">To:</label>
+        <input id="to"></input>
+        </div>
+
+        <div>
+            <label for="subjet">subject:</label>
+            <input id="subjet"></input>
+        </div>
+        <div>
+            <label for="Attachement">Attachment:</label>
+            <input type="file"></input>
+        </div>
+    </body>
+        <div>
+            <label for=Message>message:</label>
+            <input id="message"></input>
+        </div>
+        <div>
+            <button type=button onclick="handleButtonClick()">submit</button>
+
+        </div>
+</html>
