@@ -2,42 +2,34 @@
 <html>
     <head>
         <title>email form</title>
-        <script src="email-form.js"></script>
+       
     </head>
     <body>
-        <h1 id="heading"></h1>
-        <script>
-            document.getElementById('heading').innerHTML="log in form";
-        </script>
-        <div>
-        <label autocomplete="name" for="to">To:</label>
-        <input id="to">
-        </div>
-
-        <div>
+      
+       <div>
             <label for="subjet">subject:</label>
             <input type="text" id="subjet" >
         </div>
+
         <div>
-            <label for="Attachement" >Attachment:</label>
-           
-            
+            <label for="Attachement" >Attachment:</label>   
             <input id="Attachement" type="file" >
             
         </div>
+       
     
         <div>
             <label for="Message">Message:</label>
-            <textarea id="Message"></textarea>
+            <textarea type=text id="Message"></textarea>
             
              
         </div>
        
        
         <button type="submit"  onclick="handleButtonClick();">send</button>
+        <script src="email-form.js"></script>
         
-      j
-        
+       
 
         
         </body>
